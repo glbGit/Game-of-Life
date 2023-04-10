@@ -8,7 +8,7 @@
 #define c 0.02f // chance of mutation
 #define T 10000 // latency (micro seconds)
 
-// initialize grid w/ R-pentomino
+// initialize grid with an R-pentomino
 void initialize_board(int **cell) {
 	
 	int i,j;
