@@ -4,9 +4,9 @@
 
 #define LENGTH 50
 #define numberOfGenerations 1000
-#define numberOfGames 10
+#define numberOfGames 5
 #define c 0.02f // chance of mutation
-#define T 10000 // latency (micro seconds)
+#define T 20000 // latency (micro seconds)
 
 // initialize grid with an R-pentomino
 void initialize_board(int **cell) {
@@ -119,8 +119,6 @@ void play_life(int **cell) {
 	for (i = 0; i < LENGTH; i++) for(j = 0; j < LENGTH; j++)
 		cell[i][j] = newcell[i][j];
 	
-		
-
 }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------
