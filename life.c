@@ -141,7 +141,7 @@ int main(void) {
 	for (k = 0; k < numberOfGames; k++) {	 
 		initialize_board(cell);
 		
-		// play numberOfGenerations times
+		// play numberOfGenerations games
 		for (i = 0; i < numberOfGenerations; i++) {
 			system("clear");
 			print(cell);
